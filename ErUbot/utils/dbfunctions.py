@@ -7,7 +7,7 @@ from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 
 #import pymongo
 
-from ubot.config import MONGO_URL
+from ErUbot.config import MONGO_URL
 
 mongo = MongoClient(MONGO_URL)
 
