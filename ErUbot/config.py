@@ -12,10 +12,10 @@ DEVS = [
 ]
 
 
-API_ID = int(os.environ("API_ID", 0))
+API_ID = int(os.environ.get("API_ID", ""))
 
 
-API_HASH = os.environ("API_HASH")
+API_HASH = os.environ.get("API_HASH", "f658bf823f1dcd749ddb655a2f4a143d")
 
 
 OPENAI_API = os.environ.get("OPENAI_API", "ssk-f3185kP8hFfcOeONlTRrT3BlbkFJjwAMOE92hL7OdpgBwuyR")
