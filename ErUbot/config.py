@@ -34,7 +34,7 @@ MAX_BOT = int(os.environ.get("MAX_BOT", "50"))
 SKY = int(os.environ.get("SKY", "-1001941886895"))
 
 
-MONGO_URL = os.environ(
+MONGO_URL = os.getenv(
     "MONGO_URL"
 )
 
