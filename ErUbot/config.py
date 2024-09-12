@@ -38,6 +38,6 @@ MONGO_URL = os.getenv(
     "MONGO_URL"
 )
 
-SESSION_STRING = os.environ(
+SESSION_STRING = os.getenv(
     "SESSION_STRING"
 )
