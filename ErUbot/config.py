@@ -21,7 +21,7 @@ API_HASH = os.environ("API_HASH")
 OPENAI_API = os.environ.get("OPENAI_API", "ssk-f3185kP8hFfcOeONlTRrT3BlbkFJjwAMOE92hL7OdpgBwuyR")
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "6460246158:AAG1V77tgrpKR3kj6XpTgneijr0CH1NGGXs")
+BOT_TOKEN = os.environ("BOT_TOKEN")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "6464124056"))
