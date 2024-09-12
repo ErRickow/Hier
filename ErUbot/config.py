@@ -12,7 +12,7 @@ DEVS = [
 ]
 
 
-API_ID = int(os.environ("API_ID" 0))
+API_ID = int(os.environ("API_ID", 0))
 
 
 API_HASH = os.environ("API_HASH")
